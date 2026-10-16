@@ -15,7 +15,7 @@ Open `index.html` to update the following items:
 
 - The founding-client offer price in the highlighted offer banner: `[FREE / DISCOUNTED PRICE]`
 - The number of founding-client spots: `[2]`
-- The About section profile image placeholder and background text
+- The About section background text; the supplied portrait is already connected
 - Any wording you would like to personalise
 
 The booking, WhatsApp, email, and LinkedIn links are already connected to the provided contact details.
