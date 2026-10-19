@@ -4,10 +4,10 @@ A single-page, GitHub Pages-compatible website for FlowEdge AI Consultant and th
 
 ## Publish on GitHub Pages
 
-1. Create a GitHub repository named `ai-audit` under your GitHub account.
+1. Create a GitHub repository named `ai-audits` under your GitHub account.
 2. Upload `index.html`, `styles.css`, `script.js`, `README.md`, and the `assets` folder.
 3. Open the repository settings, find **Pages**, and choose the main branch and the root folder as the publishing source.
-4. Your site will be available at `https://azrihanizai.github.io/ai-audit/` after GitHub finishes publishing it.
+4. Your site will be available at `https://azrihanizai.github.io/ai-audits/` after GitHub finishes publishing it.
 
 ## Edit the placeholders
 
