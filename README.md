@@ -20,4 +20,4 @@ Open `index.html` to update the following items:
 
 The booking, WhatsApp, email, and LinkedIn links are already connected to the provided contact details.
 
-The site uses the FlowEdge light theme consistently across all pages and devices.
+The site starts in light mode. Visitors can switch to dark mode using the theme button in the navigation, and their choice is remembered in that browser.
