@@ -1,24 +1,5 @@
-const root = document.documentElement;
-const themeToggle = document.querySelector('.theme-toggle');
-const themeLabel = document.querySelector('.theme-label');
 const menuToggle = document.querySelector('.menu-toggle');
 const siteNav = document.querySelector('.site-nav');
-
-const setTheme = (theme) => {
-  const isDark = theme === 'dark';
-  root.classList.toggle('dark', isDark);
-  themeToggle.setAttribute('aria-pressed', String(isDark));
-  themeToggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
-  themeLabel.textContent = isDark ? 'Light mode' : 'Dark mode';
-  localStorage.setItem('flowedge-theme', theme);
-};
-
-const savedTheme = localStorage.getItem('flowedge-theme');
-setTheme(savedTheme === 'dark' ? 'dark' : 'light');
-
-themeToggle.addEventListener('click', () => {
-  setTheme(root.classList.contains('dark') ? 'light' : 'dark');
-});
 
 menuToggle.addEventListener('click', () => {
   const isOpen = siteNav.classList.toggle('is-open');
